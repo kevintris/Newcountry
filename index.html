@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>OMTAMIL - MOBILE APPS DEVELOPMENT WORKSHOP</title>
+	<title>TOP 10 COUNTRY</title>
 	<link rel="stylesheet"  href="css/jquery.mobile.min.css">
 	<style>
 		#homeBanner {
@@ -29,6 +29,15 @@
 			width: 320px;
 			height: 320px;  
 		}
+/*  List2(singapore) Morten Rand Transition  effects CSS         */
+table { width:100%; border-spacing: 0; }
+th { text-align:left; }
+th h3 { margin:.6em 0 .6em .5em; }
+th, td { vertical-align:top; border-top:1px solid #eee; padding: 1px 3px; background-color:#fcfcfc; }
+td .ui-btn { margin:.4em 0 .5em 0; }
+td .ui-btn-inner { padding: .4em 15px; }
+.ui-page { -webkit-backface-visibility: hidden; }
+
 	</style>
 	<link rel="stylesheet" href="css/leaflet.css" />
 	<script src="js/jquery.js"></script>
@@ -43,10 +52,10 @@
 	
 <body>
 <div id="homeScreen" data-role="page">
-	<img src="imgs/SAMOCA_banner_1.png" class="banner" />
+	<img src="imgs/top10.png" class="banner" />
 	<div data-role="content">
 		<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
-<<<<<<< HEAD
+
 			<li><a href="#list1">Malaysia</a></li>
 			<li><a href="#list2">Singapore</a></li>
 			<li><a href="#list3">France</a></li>
@@ -57,13 +66,8 @@
 			<li><a href="#list8">Italy</a></li>
 			<li><a href="#list9">Greece</a></li>
 			<li><a href="#list10">Norway</a></li>
-=======
-			<li><a href="#list1" >Tamil History</a></li>
-			<li><a href="#list2">Tamil Science</a></li>
-			<li><a href="#list3">Tamil Sol Aivu</a></li>
-			<li><a href="#list4">Tamil Scholars</a></li>
+
 			
->>>>>>> origin/master
 
 		</ul>
 		<div class="ui-grid-a center">
@@ -115,7 +119,7 @@
 	<div data-role="content">
 		<h1 class="center">Thumbnails List</h1>
 		<ul data-role="listview" data-inset="false" class="ui-nodisc-icon ui-alt-icon">
-			<li><a href="#"><img src="imgs/Westhoff_thumb.png">
+			<li><a href="#sw"><img src="imgs/Westhoff_thumb.png">
 				<h2>Siobhan Westhoff</h2>
 				<p>Final Weeks</p></a>
 			</li>
@@ -123,11 +127,11 @@
 				<h2>RED</h2>
 				<p>Eleanor Friosh</p></a>
 			</li>
-			<li><a href="#"><img src="imgs/106588354_thumb.png">
+			<li><a href="#tab"><img src="imgs/106588354_thumb.png">
 				<h2>Imbalanced</h2>
 				<p>Simone Best, Sheldon Crane, and Elizabeth Moore</p></a>
 			</li>
-			<li><a href="#"><img src="imgs/924520721_thumb.png">
+			<li><a href="#transition"><img src="imgs/924520721_thumb.png">
 				<h2>Morten Rand-Hendriksen</h2>
 				<p>The Untitled Collection</p></a>
 			</li>
@@ -151,7 +155,7 @@
 	<div data-role="content">
 		<h1 class="center">Icons List</h1>
 		<ul data-role="listview" data-inset="true">
-    <li><a href="#"><img src="imgs/gf.png" alt="France" class="ui-li-icon ui-corner-none">France</a></li>
+    <li><a href="#paris"><img src="imgs/gf.png" alt="France" class="ui-li-icon ui-corner-none">France</a></li>
     <li><a href="#"><img src="imgs/de.png" alt="Germany" class="ui-li-icon">Germany</a></li>
     <li><a href="#"><img src="imgs/gb.png" alt="Great Britain" class="ui-li-icon">Great Britain</a></li>
     <li><a href="#"><img src="imgs/fi.png" alt="Finland" class="ui-li-icon">Finland</a></li>
@@ -385,6 +389,7 @@
 	</div>
 </div>
 
+<!-- List2(SINGAPORE) RED link page --> 
 <div id="red" data-role="page">
 	<header data-role="header" data-position="fixed" data-id="appHeader">
 		<h1>RED</h1>
@@ -396,7 +401,130 @@
 		<div id="map2"><img src="imgs/101733188_thumb.png"></div>
 	</div>
 </div>
+
+<div id="sw" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>Siobhan Westhoff</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		<h2 class="center">HELLO</h2>
+		<p class="center">I am here<br>(800)555-1212</p>
+		<div id="map2"><img src="imgs/Westhoff_thumb.png"></div>
+	</div>
+</div>
+
+<!-- List3(FRANCE) paris link page --> 
+
+<div id="paris" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>paris</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		<h2 class="center">San Angelico Museum of Contemporary Art</h2>
+		<p class="center">123 Main Street Ventura, CA 12345<br>(800)555-1212</p>
+		<div id="map2"><img src="imgs/101733188_thumb.png"></div>
+	</div>
+</div>
 	
+	<!-- List2(Singapore) IMBALANCED link page --> 
+  <div id="tab" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>TAB</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	
+	<div data-role="tabs" id="tabs">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#one" data-ajax="false">one</a></li>
+      <li><a href="#two" data-ajax="false">two</a></li>
+      <li><a href="ajax-content-ignore.html" data-ajax="false">three</a></li>
+    </ul>
+  </div>
+  <div id="one" class="ui-body-d ui-content">
+    <h1>First tab contents</h1>
+  </div>
+  <div id="two">
+    <ul data-role="listview" data-inset="true">
+        <li><a href="#">Acura</a></li>
+        <li><a href="#">Audi</a></li>
+        <li><a href="#">BMW</a></li>
+        <li><a href="#">Cadillac</a></li>
+        <li><a href="#">Ferrari</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<!-- List2(Singapore) Morten RAND transition link page --> 
+<div id="transition" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>RED</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		
+		<!-- copy source code from http://demos.jquerymobile.com/1.4.4/transitions/#&ui-state=dialog --> 
+		<table margin="0">
+    <tbody><tr>
+        <th><h3>fade</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="fade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="fade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>pop</h3></th>#red
+        <td><a href="#red" data-rel="dialog" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>flip</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>turn</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="turn" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="turn" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>flow</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="flow" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="flow" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>slidefade</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="slidefade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="slidefade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>slide</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="slide" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="slide" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>slideup</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>slidedown</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="slidedown" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="slidedown" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+    <tr>
+        <th><h3>none</h3></th>
+        <td><a href="#red" data-rel="dialog" data-transition="none" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">dialog</a></td>
+        <td><a href="#red" data-transition="none" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a></td>
+    </tr>
+</tbody></table>
+
+
+	</div>
+</div>
+
+
 <div id="mapScreen" data-role="page">
 	<header data-role="header" data-position="fixed" data-id="appHeader">
 		<h1>OMTAMIL</h1>
