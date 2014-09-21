@@ -6,16 +6,16 @@
 	version   = "1.0">
 <name>OMTAMIL APP WORKSHOP</name>
 <description>
-A Demo App for Mobile Development Workshop</description>
+TOP 10 Country</description>
 <author href="omtamil.com" 
-email="muhelen@omtamil.com">
-MUHELEN MURUGAN
+email="kevintris@gmail.com">
+Kevin Ainsley
 </author>
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 	<gap:platform name="winphone" />
-	<preference name="phonegap-version" value="3.3.0" />
-	<preference name="orientation" value="portrait" />
+	<preference name="phonegap-version" value="3.5.0" />
+	<preference name="orientation" value="default" />
 	<preference name="fullscreen" value="false" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="DisallowOverscroll" value="true"/>
